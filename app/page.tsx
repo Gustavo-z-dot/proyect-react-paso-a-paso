@@ -145,6 +145,20 @@ export default function Home() {
               Navegar a una URL dinámica como /ventas/7 y rescatar el id desde la ruta.
             </p>
           </Link>
+
+          <Link
+            href="/local-session"
+            className="rounded-xl border border-lime-500 bg-lime-950/40 p-5 transition hover:bg-lime-900"
+          >
+            <h2 className="text-xl font-semibold text-lime-200">
+              11. LocalStorage y SessionStorage
+            </h2>
+
+            <p className="mt-2 text-lime-100">
+              Guardar, leer y eliminar datos del navegador. Formulario persistente
+              con localStorage y ejemplo temporal con sessionStorage.
+            </p>
+          </Link>
         </nav>
       </section>
     </main>
