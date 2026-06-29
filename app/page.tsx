@@ -159,6 +159,20 @@ export default function Home() {
               con localStorage y ejemplo temporal con sessionStorage.
             </p>
           </Link>
+
+          <Link
+            href="/fetchs-asincronos"
+            className="rounded-xl border border-sky-500 bg-sky-950/40 p-5 transition hover:bg-sky-900"
+          >
+            <h2 className="text-xl font-semibold text-sky-200">
+              12. Fetchs y Asíncronos
+            </h2>
+
+            <p className="mt-2 text-sky-100">
+              Pedidos reales con fetch, funciones async/await dentro de useEffect,
+              estados locales, listas mapeadas y dispatch al estado global.
+            </p>
+          </Link>
         </nav>
       </section>
     </main>
